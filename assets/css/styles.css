@@ -122,3 +122,9 @@ a {
   left: 25%;
 
 }
+
+.logo img {
+  height: 80px;
+  width: auto;
+  display: block;
+}
