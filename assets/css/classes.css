@@ -5,8 +5,10 @@
   color: var(--white-color);
 }
 
+
 .white-bg {
   background: var(--white-color);
+  color: black;
 }
 
 .main-content {
