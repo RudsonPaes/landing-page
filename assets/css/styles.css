@@ -24,3 +24,39 @@
     height: 100vh;
     text-align: center;
 }
+
+.grid-one-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    height: 100vh;
+}
+
+.grid-main-reading {
+    margin-bottom: 1rem;
+
+}
+
+.grid-description{
+    padding-bottom: 6rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+    counter-reset: grid-counter;
+}
+.grid h3 {
+font-size: 3rem;
+position: relative;
+padding-left: 5rem;
+padding-bottom: 2rem;
+}
+.grid ul {
+    list-style: none;
+}
+
+
