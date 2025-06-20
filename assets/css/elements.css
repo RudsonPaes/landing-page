@@ -44,3 +44,48 @@ a {
 p {
 margin-bottom: 3rem;
 }
+
+/* Container da tabela para responsividade horizontal */
+.responsive-tabela {
+  overflow-x: auto; /* Scroll horizontal em telas pequenas */
+  margin-top: 2rem;
+}
+
+/* Estilo básico da tabela */
+table {
+  min-width: 360px;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;        /* Tipografia mais leve */
+  line-height: 1.4;
+  border-radius: 1.5rem;     /* Bordas arredondadas */
+  overflow: hidden;          /* Garante que as bordas não “vazem” */
+}
+
+/* Título da tabela */
+table caption {
+  font-style: italic;
+  font-size: 1.3rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+/* Estilo das células */
+table td, table th {
+  white-space: nowrap;       /* Impede quebra de linha automática */
+  padding: 1rem;
+  text-align: left;
+  border: 0.1rem solid #EEEEEE;
+}
+
+/* Cabeçalho e rodapé com fundo cinza */
+table th,
+tfoot td {
+  background: #EEEEEE;
+  font-weight: bold;
+}
+
+/* Linhas zebradas para facilitar leitura */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
