@@ -1,55 +1,66 @@
-# 🌱 Projeto Pessoal - Meu Recomeço com Programação
+# 🌱 Meu Começo na Programação
 
-Este é o meu **primeiro projeto** como desenvolvedor. Um projeto pessoal que marca meu recomeço, minha virada de chave, e o início de uma nova fase com a programação. Aqui, mostro minha **jornada de estudos**, **metas** e **motivações**. Mais do que uma landing page, este projeto representa um sonho sendo construído com consistência, um dia de cada vez.
+Este é meu **primeiro projeto** como desenvolvedor. Uma landing page que marca o início da minha jornada na programação, construída com dedicação e estudo. Mais que código, é um sonho começando a ganhar forma!
 
-## ✍️ Sobre o Projeto
+---
 
-A proposta dessa landing page é contar minha história de aprendizado, compartilhar minha trajetória e facilitar o contato com outras pessoas que também estão se reinventando através da tecnologia.
+## ✍️ Sobre
 
-Tecnologias usadas:
+📄 Projeto pessoal feito para treinar e contar minha história com a programação.
+
+🛠 Tecnologias usadas:
 - HTML5
 - CSS3
-- JavaScript (inicialmente nos estudos, ainda não aplicado neste projeto)
 - Git & GitHub
+
+---
 
 ## 🧭 Minha Jornada
 
-- 🛠 Reinventando minha história aos **32 anos**
-- 🕔 Comecei às 05:35 da manhã, no dia do meu aniversário (18/06/2025)
-- 🎯 Comprometido com uma mudança real de vida
-- 📚 Estudo com consistência, em dias alternados, com dedicação média de 3 a 4 horas por dia
+🎂 Comecei no dia 18/06/2025, às 05:35 da manhã, no meu aniversário de 32 anos.
 
-## 🚀 Motivações e Metas
+📚 Estudo **um dia sim, outro não**, aproveitando as folgas do trabalho.
 
-**Motivos para estudar programação:**
-- 💡 Aprendizado contínuo  
-- 💼 Novas oportunidades de carreira  
-- 🧠 Estimula o raciocínio lógico  
-- 🌍 Possibilidade de trabalhar de qualquer lugar  
-
-**Metas para o próximo ano:**
-- ✅ Finalizar meu primeiro projeto completo  
-- 🚀 Criar um portfólio online funcional  
-- 📘 Aprender lógica de programação mais a fundo  
-- 💬 Fazer conexões com outros devs  
-
-## 🔗 Acesse a landing page
-
-[🔗 Ver projeto online](https://brilliant-otter-4b99f6.netlify.app/)
-
-## 📸 Galeria de Imagens
-
-![pro01](img/pro01.png)  
-![pro02](img/pro02.png)  
-![pro3](img/pro3.png)  
-![pro4](img/pro4.png)  
-![pr05](img/pr05.png)  
-![pro06](img/pro06.png)
-
-## 📬 Vamos nos Conectar?
-
-Se você também está começando, aprendendo algo novo ou buscando transformar sua vida com tecnologia, me manda uma mensagem! Adoro trocar experiências com quem acredita que nunca é tarde para evoluir.
+🎯 Estou comprometido com uma mudança real de vida.
 
 ---
+
+## 🚀 Metas & Motivações
+
+💡 Por que escolhi a programação:
+- Aprendizado contínuo
+- Raciocínio lógico
+- Trabalho remoto
+- Nova carreira
+
+🎯 Minhas metas:
+- Finalizar este projeto ✅
+- Criar um portfólio online
+- Aprender lógica com profundidade
+- Me conectar com outros devs
+
+---
+
+## 🌐 Acesse o Projeto
+
+🔗 [Ver landing page online](https://brilliant-otter-4b99f6.netlify.app/)
+
+---
+
+## 📸 Galeria
+
+![pro01](assets/img/pro01.png)  
+![pro02](assets/img/pro02.png)  
+![pro03](assets/img/pro3.png)  
+![pro04](assets/img/pro4.png)  
+![pro05](assets/img/pr05.png)  
+![pro06](assets/img/pro06.png)
+
+---
+
+## 🤝 Vamos nos Conectar!
+
+📧 **Email:** [rudsonpaes3@gmail.com](mailto:rudsonpaes3@gmail.com)  
+💼 **LinkedIn:** [linkedin.com/in/rudsonpaes](https://www.linkedin.com/in/rudsonpaes/)
 
 > “Se conectar com quem sonha grande é sempre uma boa ideia. 💪📘”
