@@ -49,7 +49,7 @@
 .menu ul a {
   display: block; /* Ocupa o espaço total do link, facilitando o clique */
   padding: 2rem; /* Espaçamento interno em todos os lados */
-  font-size: 2rem; /* Tamanho da fonte do item de menu */
+  font-size: 1.8rem; /* Tamanho da fonte do item de menu */
   color: #880088; /* Cor do texto do link (roxo) */
   position: relative; /* Para posicionar elementos filhos com base nesse */
   text-decoration: none; /* Remove o sublinhado do link */
