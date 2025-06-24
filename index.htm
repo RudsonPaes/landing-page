@@ -19,15 +19,17 @@
 
 </head>
 <body >
+  <input id="fechar-menu" class="fechar-menu" type="checkbox" aria-label="Fechar Menu" role="button">
+  <label class="fechar-menu-label" for="fechar-menu" title="fechar-menu" ></label>
   <aside class="menu white-bg">
     <div class="main-content menu-content">
-    <div class="logo">
-  <a href="#">
+    <div class="logo" onclick="document.getElementById('fechar-menu').checked = false;" >
+  <a href="#intro">
     <img src="assets/img/log1.png" alt="Logo Rudson Paes">
   </a>
 </div>
       <nav>
-        <ul>
+        <ul onclick="document.getElementById('fechar-menu').checked = false;">
         <li><a href="#intro">Início</a></li>
         <li><a href="#top3">Jornada </a></li>
         <li><a href="#grid-one">Transformação</a></li>
@@ -263,6 +265,8 @@ Adoro trocar experiências com quem acredita que nunca é tarde para evoluir. Es
   <footer id="footer" class=" footer white-bg">
     <p><a rel="nofllow" target="_blank" href="https://github.com/RudsonPaes">Se conectar com quem sonha grande é sempre uma boa ideia. 💪💻 </a></p>
   </footer>
+
+  <a class="back-to-top" href="#">TOP</a>
 
 </body>
 </html>

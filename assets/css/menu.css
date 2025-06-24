@@ -5,42 +5,57 @@
   right: 0;
   width: 100%;
   z-index: 1;
-  border: bottom 0.1rem solid var(---light-gray-color)
+  background: white;
+  border-bottom: 0.1rem solid var(--light-gray-color);
 }
+
 .menu-content {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding-top: 0;
   padding-bottom: 0;
+  height: auto; /* Garante que volta ao normal no desktop */
 }
 
-.menu  h1 {
+.logo img {
+  height: 70px;
+  width: auto;
+  display: block;
+}
+
+.menu h1 {
   font-size: 2.3rem;
   color: var(--primary-color);
-  
 }
 
-.menu  h1 a {
- color: inherit;
-  
+.menu h1 a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.menu  ul {
+.menu ul {
   list-style: none;
   display: flex;
-
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
 }
 
-.menu  ul a {
+.menu ul a {
   display: block;
   padding: 2rem;
   font-size: 1.3rem;
   color: #880088;
   position: relative;
+  text-decoration: none;
 }
 
-.menu  ul li a::after {
+.menu ul li a::after {
   content: '';
   position: absolute;
   bottom: 1rem;
@@ -51,14 +66,7 @@
   transition: all 300ms ease-in-out;
 }
 
-.menu  ul li a:hover::after {
+.menu ul li a:hover::after {
   width: 50%;
   left: 25%;
-
-}
-
-.logo img {
-  height: 70px;
-  width: auto;
-  display: block;
 }
