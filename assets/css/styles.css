@@ -1,235 +1,241 @@
 .intro-content {
-    position: relative;
-    /* top: -8rem; */
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    gap: var(--gap);
-    min-height: 100vh;}
+    position: relative; /* Posicionamento relativo para permitir posicionamento absoluto de filhos */
+    /* top: -8rem; */ /* Comentado - moveria o elemento 8rem para cima */
+    display: grid; /* Usa layout em grid para organizar os elementos internos */
+    grid-template-columns: 1fr 1.5fr; /* Cria duas colunas, uma com fração 1 e outra com 1.5 */
+    gap: var(--gap); /* Espaçamento entre os elementos baseado em variável CSS */
+    min-height: 100vh; /* Altura mínima igual à altura da tela */
+}
 
 .intro-text-content, .intro-img {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+    display: flex; /* Ativa layout flexível */
+    flex-flow: column wrap; /* Direção em coluna e permite quebra de linha */
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
 }
-
 
 .intro-img img{
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; /* Largura máxima de 100% do contêiner pai */
+    height: auto; /* Altura automática para manter proporção da imagem */
 }
+
 .top3-content {
-    max-width: 80rem;
-    display: flex;
-   /* flex-flow: column wrap; */
-   flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    min-height: 100vh;
-    text-align: center;
+    max-width: 80rem; /* Largura máxima de 80rem */
+    display: flex; /* Usa layout flexível */
+    /* flex-flow: column wrap; */ /* Comentado */
+    flex-direction: column; /* Elementos empilhados verticalmente */
+    flex-wrap: nowrap; /* Não permite quebra de linha */
+    justify-content: center; /* Centraliza conteúdo verticalmente */
+    min-height: 100vh; /* Altura mínima de 100% da viewport */
+    text-align: center; /* Centraliza texto */
 }
 
 .grid-one-content {
     display: flex;
-    flex-flow: column wrap; 
-    justify-content: center;
-    min-height: 100vh;
-    text-align: center;
-   
+    flex-flow: column wrap; /* Colunas com quebra de linha se necessário */
+    justify-content: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Altura mínima da tela inteira */
+    text-align: center; /* Centraliza o texto */
 }
 
 .grid-main-reading {
-    margin-bottom: 1rem;
-
+    margin-bottom: 1rem; /* Espaço abaixo do elemento */
 }
 
 .grid-description{
-    padding-bottom: 6rem;
+    padding-bottom: 6rem; /* Espaço interno inferior */
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--gap);
-    counter-reset: grid-counter;
+    display: grid; /* Layout de grid */
+    grid-template-columns: repeat(3, 1fr); /* Três colunas iguais */
+    gap: var(--gap); /* Espaçamento entre itens */
+    counter-reset: grid-counter; /* Reseta contador (usado com CSS counters) */
 }
+
 .grid h3 {
-font-size: 3rem;
-position: relative;
-padding-left: 5rem;
-padding-bottom: 2rem;
+    font-size: 3rem; /* Tamanho da fonte */
+    position: relative; /* Permite posicionamento absoluto de filhos */
+    padding-left: 5rem; /* Espaço à esquerda */
+    padding-bottom: 2rem; /* Espaço abaixo */
 }
+
 .grid ul {
-    list-style: none;
+    list-style: none; /* Remove marcadores de lista */
 }
+
 .gallery-img{
-    width: 100%;
-    max-width: 90rem;
-    max-height: 90rem;
-    overflow: hidden;
+    width: 100%; /* Largura total */
+    max-width: 90rem; /* Largura máxima */
+    max-height: 90rem; /* Altura máxima */
+    overflow: hidden; /* Oculta o conteúdo que ultrapassar os limites */
 }
+
 .gallery-img img{ 
-    transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out; /* Animação suave de 300ms */
 }
+
 .gallery-img img:hover{
-    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg); /* Move, aumenta e rotaciona ao passar o mouse */
 }
+
 .contact-form {
- grid-column: span 2;
+    grid-column: span 2; /* Ocupa duas colunas no grid */
 }
 
 .contact-form .form-grid {
-    border: none;
-    display: flex;    
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: var(--gap);
-
+    border: none; /* Sem borda */
+    display: flex;     
+    flex-direction: row; /* Layout horizontal */
+    flex-wrap: wrap; /* Quebra linha se necessário */
+    gap: var(--gap); /* Espaçamento entre os elementos */
 }
 
 .form-grid legend{
-font-style: italic;
-font-size: 1.5rem;
-margin-bottom: 3rem;
+    font-style: italic; /* Texto em itálico */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    margin-bottom: 3rem; /* Espaço abaixo */
 }
 
 .form-group {
-    flex: 1 1 320px;
-
-
+    flex: 1 1 320px; /* Cresce e diminui com base no espaço, tamanho base 320px */
 }
 
 .form-group label {
-display: block;
-margin-bottom: 1rem;
-
+    display: block; /* Ocupa uma linha inteira */
+    margin-bottom: 1rem; /* Espaço abaixo do rótulo */
 }
 
 .form-group input, 
 .form-group textarea {
-    border: none;
-    background: white;
-    padding: 1.5rem 2rem;
-    width: 100%;
-    font-size: 1.5rem;
-
+    border: none; /* Sem borda */
+    background: white; /* Fundo branco */
+    padding: 1.5rem 2rem; /* Espaço interno */
+    width: 100%; /* Largura total do contêiner pai */
+    font-size: 1.5rem; /* Tamanho da fonte */
 }
 
 .form-group button {
-    border: 0.5rem solid white;
-    background: none;
-    color: white;
-    padding:  1.5rem 2rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: all 300ms ease-in-out;
+    border: 0.5rem solid white; /* Borda branca grossa */
+    background: none; /* Fundo transparente */
+    color: white; /* Cor do texto */
+    padding:  1.5rem 2rem; /* Espaço interno */
+    font-size: 1.5rem; /* Tamanho do texto */
+    cursor: pointer; /* Cursor de mãozinha */
+    transition: all 300ms ease-in-out; /* Animação suave */
 }
 
 .form-group button:hover {
-background: white;
-color: #0A1128;;
+    background: white; /* Fundo branco ao passar o mouse */
+    color: #0A1128; /* Cor do texto muda para azul escuro */
 }
 
 .form-group ::placeholder {
-    color: rgb(128, 128, 128);;
+    color: rgb(128, 128, 128); /* Cor do texto do placeholder */
 }
 
 .footer {
-    text-align: center;
-    font-size: 1.6rem;
-
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.6rem; /* Tamanho da fonte */
 }
 
 .footer a {
-color: #444;
+    color: #444; /* Cor dos links */
 }
 
 .footer p {
-margin: 0;
-padding: 3rem;
+    margin: 0; /* Remove margens externas */
+    padding: 3rem; /* Espaço interno */
 }
 
 .fechar-menu {
-    display: none;
+    display: none; /* Esconde checkbox de controle de menu */
 }
 
 .back-to-top {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  background-color: #0A1128;
-  color: white;
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 5rem;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  z-index: 1000;
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 2rem; /* Distância da base da tela */
+    right: 2rem; /* Distância da lateral direita */
+    background-color: #0A1128; /* Cor de fundo azul escuro */
+    color: white; /* Cor do texto */
+    width: 5rem; /* Largura do botão */
+    height: 5rem; /* Altura do botão */
+    border-radius: 50%; /* Formato circular */
+    text-align: center; /* Texto centralizado */
+    line-height: 5rem; /* Centraliza verticalmente */
+    text-decoration: none; /* Sem sublinhado */
+    font-weight: bold; /* Texto em negrito */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Sombra para destacar */
+    z-index: 1000; /* Fica por cima de outros elementos */
 }
-@media (max-width: 800px) {
-  .intro-content,
-  .grid {
-    grid-template-columns: 1fr;
-  }
 
-  .grid-one-content {
-    display: block;
-  }
-
-  .gallery-img {
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .gallery-img img {
-    width: 100%;
-  }
-
-  .menu-content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-
-  .menu-content ul {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /* Remova `bottom: 0` que estava bagunçando no desktop */
+/* Menu visível sempre no desktop */
+@media (min-width: 801px) {
   .menu {
-    text-align: center;
+    display: block; /* Mostra o menu normalmente em telas grandes */
   }
 }
-.menu {
-    display: none;
+
+/* Estilos para telas pequenas */
+@media (max-width: 800px) {
+    .intro-content,
+    .grid {
+        grid-template-columns: 1fr; /* Apenas uma coluna em telas pequenas */
+    }
+
+    .grid-one-content {
+        display: block; /* Layout padrão (não flex) */
+    }
+
+    .gallery-img {
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .gallery-img img {
+        width: 100%; /* Imagem ocupa toda largura */
+    }
+
+    .menu-content {
+        flex-direction: column; /* Layout vertical */
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Altura total da tela */
+    }
+
+    .menu-content ul {
+        flex-direction: column; /* Layout vertical para lista */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu {
+        display: none; /* Esconde o menu no mobile por padrão */
+        text-align: center;
+    }
+
+    .fechar-menu:checked ~ .menu {
+        display: block; /* Mostra o menu quando clicar no botão ☰ */
+    }
 }
 
 .fechar-menu-label::after {
-    content: '☰';
+    content: '☰'; /* Ícone de menu hambúrguer */
     position: fixed;
     z-index: 2;
-    top: 3rem;
-    right: 3rem;
-    background: white;
-   color: black;
+    top: 3rem; /* Distância do topo */
+    right: 3rem; /* Distância da direita */
+    background: white; /* Fundo branco */
+    color: black; /* Cor do ícone */
     font-size: 2rem;
     line-height: 2rem;
     width: 2rem;
     height: 2rem;
     text-align: center;
     padding: 0.5rem;
-    cursor: pointer;
+    cursor: pointer; /* Cursor de mãozinha */
 }
-.fechar-menu:checked~.menu {
-    display: block;
-    
-}
-.fechar-menu:checked~.fechar-menu-label::after {
-    content: 'X';
+
+.fechar-menu:checked ~ .fechar-menu-label::after {
+    content: 'X'; /* Ícone de fechar substitui o ícone de menu */
 }

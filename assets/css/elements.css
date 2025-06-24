@@ -1,92 +1,91 @@
+/* Reset e ajustes globais */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0; /* Remove margens padrão de todos os elementos */
+  padding: 0; /* Remove preenchimento padrão */
+  box-sizing: border-box; /* Inclui bordas e preenchimentos na largura/altura total */
 }
 
 html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
+  font-size: 62.5%; /* Facilita o uso de rem (1rem = 10px se o padrão for 16px) */
+  scroll-behavior: smooth; /* Rolagem suave ao clicar em âncoras */
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2.1rem;
-  color: var(--primary-color);
-  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif; /* Fonte padrão do corpo */
+  font-size: 2.1rem; /* Tamanho base do texto (equivale a 21px) */
+  color: var(--primary-color); /* Cor do texto principal usando variável CSS */
+  line-height: 1.5; /* Espaçamento entre linhas */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif; /* Fonte para títulos */
 }
 
 h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
+  font-size: 3rem; /* Tamanho do título h1 */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
 }
 
 h2 {
-   font-size: 4rem;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-    line-height: 1.2;
-  
+  font-size: 4rem; /* Tamanho do título h2 */
+  margin-bottom: 2rem; /* Espaço abaixo do título */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+  line-height: 1.2; /* Altura da linha ajustada */
 }
 
 h3 {
-  font-size: 2rem;
-  
+  font-size: 2rem; /* Tamanho do título h3 */
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none; /* Remove sublinhado dos links */
 }
 
 p {
-margin-bottom: 3rem;
+  margin-bottom: 3rem; /* Espaço abaixo de parágrafos */
 }
 
 /* Container da tabela para responsividade horizontal */
 .responsive-tabela {
-  overflow-x: auto; /* Scroll horizontal em telas pequenas */
-  margin-top: 2rem;
+  overflow-x: auto; /* Adiciona barra de rolagem horizontal quando necessário */
+  margin-top: 2rem; /* Espaço acima da tabela */
 }
 
 /* Estilo básico da tabela */
 table {
-  min-width: 360px;
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.95rem;        /* Tipografia mais leve */
-  line-height: 1.4;
-  border-radius: 1.5rem;     /* Bordas arredondadas */
-  overflow: hidden;          /* Garante que as bordas não “vazem” */
+  min-width: 360px; /* Largura mínima para evitar que quebre em telas pequenas */
+  width: 100%; /* Ocupa 100% da largura disponível */
+  border-collapse: collapse; /* Remove espaço entre as bordas das células */
+  font-size: 0.95rem; /* Tamanho da fonte dentro da tabela */
+  line-height: 1.4; /* Altura da linha para melhor leitura */
+  border-radius: 1.5rem; /* Bordas arredondadas da tabela */
+  overflow: hidden; /* Garante que o conteúdo da tabela não ultrapasse as bordas */
 }
 
 /* Título da tabela */
 table caption {
-  font-style: italic;
-  font-size: 1.3rem;
-  text-align: left;
-  margin-bottom: 1rem;
+  font-style: italic; /* Estilo itálico para o título */
+  font-size: 1.3rem; /* Tamanho da fonte do título */
+  text-align: left; /* Alinha o título à esquerda */
+  margin-bottom: 1rem; /* Espaço abaixo do título */
 }
 
 /* Estilo das células */
 table td, table th {
-  white-space: nowrap;       /* Impede quebra de linha automática */
-  padding: 1rem;
-  text-align: left;
-  border: 0.1rem solid #EEEEEE;
+  white-space: nowrap; /* Impede quebras automáticas de linha */
+  padding: 1rem; /* Espaçamento interno das células */
+  text-align: left; /* Alinha o conteúdo à esquerda */
+  border: 0.1rem solid #EEEEEE; /* Borda clara entre células */
 }
 
 /* Cabeçalho e rodapé com fundo cinza */
 table th,
 tfoot td {
-  background: #EEEEEE;
-  font-weight: bold;
+  background: #EEEEEE; /* Fundo cinza para cabeçalho e rodapé */
+  font-weight: bold; /* Texto em negrito */
 }
 
 /* Linhas zebradas para facilitar leitura */
 tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #f9f9f9; /* Fundo alternado em linhas pares */
 }

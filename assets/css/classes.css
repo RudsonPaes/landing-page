@@ -1,30 +1,30 @@
 .main-bg {
-  background-image: url('../img/endless-constellation.svg');
-  background-size: cover;
-  background-position: center center;
-  color: var(--white-color);
+  background-image: url('../img/endless-constellation.svg'); /* Define imagem de fundo para a seção */
+  background-size: cover; /* Faz a imagem cobrir todo o fundo */
+  background-position: center center; /* Centraliza a imagem no eixo horizontal e vertical */
+  color: var(--white-color); /* Define a cor do texto como branco, usando variável CSS */
 }
 
-
 .white-bg {
-  background: var(--white-color);
-  color: black;
+  background: var(--white-color); /* Fundo branco usando variável CSS */
+  color: black; /* Cor do texto preta */
 }
 
 .main-content {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 9rem var(--gap);
+  max-width: 120rem; /* Largura máxima da área de conteúdo */
+  margin: 0 auto; /* Centraliza horizontalmente usando margens automáticas */
+  padding: 9rem var(--gap); /* Espaçamento interno: 9rem no topo/baixo e variável nas laterais */
 }
 
 .section {
-  min-height: 100vh;
+  min-height: 100vh; /* Altura mínima igual à altura da tela inteira */
 }
+
 .menu-spacing {
-  height: 0px;
+  height: 0px; /* Cria um espaçamento (ou ausência dele) para compensar o menu fixo */
 }
 
 body .full-width {
-    width: 100%;
-    flex: 1 1 100%;
+  width: 100%; /* Largura total do elemento */
+  flex: 1 1 100%; /* Flex-grow: 1, flex-shrink: 1, base: 100% - ocupa todo o espaço disponível */
 }
